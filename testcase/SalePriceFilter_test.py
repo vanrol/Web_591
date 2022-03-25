@@ -3,9 +3,9 @@
 
 import pytest
 import allure
-from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException
-from driver.chrome_driver import RunDriver
-from public.page.sale_list_page import SaleFilterScreen
+from selenium.common.exceptions import NoSuchElementException
+from common.utils.chrome_driver import RunDriver
+from common.page.sale_list_page import SaleFilterScreen
 
 # 配置驅動
 driver = RunDriver().open_page('https://sale.debug.591.com.tw/')

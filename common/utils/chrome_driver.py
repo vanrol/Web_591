@@ -17,6 +17,8 @@ class RunDriver(object):
         self.driver.get(url)
         return self.driver
 
-    def close_driver(self):
+    def close(self):
         self.driver.close()
+
+    def quit(self):
         self.driver.quit()

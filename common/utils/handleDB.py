@@ -1,7 +1,7 @@
 # coding: utf-8
 # author: hmk
 
-from public.utils.read_config import ReadConfig
+from common.utils.read_config import ReadConfig
 import pymysql.cursors
 
 

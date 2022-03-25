@@ -5,8 +5,8 @@ import os
 root_path = os.path.dirname(os.path.dirname(__file__))
 # 获取各个包的绝对路径
 logs_path = root_path + '//' + 'logs'
-page_path = root_path + '//' + 'public' + '//' + 'page'
-utils_path = root_path + '//' + 'public' + '//' + 'utils'
+page_path = root_path + '//' + 'common' + '//' + 'page'
+utils_path = root_path + '//' + 'common' + '//' + 'utils'
 report_path = root_path + '//' + 'report'
 driver_path = root_path + '//' + 'driver'
 data_path = root_path + '//' + 'data'

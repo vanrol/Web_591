@@ -1,9 +1,9 @@
 # !/usr/env python 3
 # -*- coding: utf-8 -*-
 
-from public.utils.locating import find_class_name, find_xpath, find_css, finds_css, find_link_text
-from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException
-from driver.chrome_driver import RunDriver
+from common.utils.locating import find_xpath, find_css, find_link_text
+from selenium.common.exceptions import NoSuchElementException
+from common.utils.chrome_driver import RunDriver
 
 
 class SaleFilterScreen(object):
