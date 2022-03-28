@@ -3,7 +3,7 @@
 
 from common.utils.locating import find_xpath, find_css, find_link_text
 from selenium.common.exceptions import NoSuchElementException
-from common.utils.chrome_driver import RunDriver
+from common.utils.driver import RunDriver
 
 
 class SaleFilterScreen(object):

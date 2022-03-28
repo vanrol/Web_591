@@ -2,10 +2,11 @@
 # -*- coding:utf-8 -*-
 
 from selenium import webdriver
+import config.conf as conf
 
 class RunDriver(object):
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = conf.driver_tool
 
     def open_page(self, url):
         """

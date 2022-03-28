@@ -4,7 +4,7 @@
 import pytest
 import allure
 from selenium.common.exceptions import NoSuchElementException
-from common.utils.chrome_driver import RunDriver
+from common.utils.driver import RunDriver
 from common.page.sale_list_page import SaleFilterScreen
 
 # 配置驅動
