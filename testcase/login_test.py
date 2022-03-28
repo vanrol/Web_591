@@ -23,10 +23,11 @@ class TestLogin(object):
     @allure.story("輸入正確賬號密碼，登錄成功。")
     @allure.severity(allure.severity_level.CRITICAL)
     def test_pass(self):
-        with allure.step('1.輸入正確賬號{}；2.輸入正確密碼{}；3.點擊【登錄】按鈕。'.format(user_info['正確賬號'],user_info['正確密碼'])):
-            LoginPage.usr_input.send_keys(user_info['正確賬號'])
-            LoginPage.pwd_input.send_keys(user_info['正確密碼'])
-            LoginPage.login_btn.click()
-
+        with allure.step('1.輸入正確賬號{}；2.輸入正確密碼{}；3.點擊【登錄】按鈕。'.format(usr_info['正確賬號'],pwd_info['正確密碼'])):
+            # LoginPage.usr_input.send_keys(user_info['正確賬號'])
+            # LoginPage.pwd_input.send_keys(user_info['正確密碼'])
+            # LoginPage.login_btn.click()
+            LoginPage.login(usr_info['正確賬號'],pwd_info['正確密碼'])
+            assert
 
 
