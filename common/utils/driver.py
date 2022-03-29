@@ -1,8 +1,9 @@
 #!/usr/bin/env python 3
 # -*- coding:utf-8 -*-
+# Author:T5-10858 , Address:xuwanle@addcn.com
 
 from selenium import webdriver
-import config.conf as conf
+import config.cfg as conf
 
 class RunDriver(object):
     def __init__(self):
