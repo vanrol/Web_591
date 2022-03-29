@@ -14,4 +14,4 @@ data_path = root_path + '//' + 'data'
 testcase_path = root_path + '//' + 'testcase'
 
 # 浏览器设置
-driver_tool = webdriver.Chrome()
+driver_tool = webdriver.Firefox()

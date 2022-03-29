@@ -4,7 +4,8 @@
 
 import allure
 from common.page.login_page import login
-from data.login_cfg import *
+from config.login_cfg import *
+from data.login_data import *
 
 
 # 登錄模塊測試用例
