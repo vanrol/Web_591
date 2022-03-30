@@ -5,4 +5,4 @@ from poium import Page, Element, CSSElement
 
 class MinePage(Page):
     page_url = 'https://www.debug.591.com.tw/index.php?module=userCenter&action=newMedium'
-    first_tab = CSSElement('.first select')
+    first_tab = Element(class_name='first select', describe='我的首頁')
