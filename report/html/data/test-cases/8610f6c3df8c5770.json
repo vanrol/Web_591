@@ -1,0 +1,145 @@
+{
+  "uid" : "8610f6c3df8c5770",
+  "name" : "test_01",
+  "fullName" : "testcase.login_test.TestLogin#test_01",
+  "historyId" : "7ff25e13f9e28b939d2f5f3f9449413e",
+  "time" : {
+    "start" : 1648628492640,
+    "stop" : 1648628496985,
+    "duration" : 4345
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1648628489891,
+      "stop" : 1648628490685,
+      "duration" : 794
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear",
+    "time" : {
+      "start" : 1648628490685,
+      "stop" : 1648628492639,
+      "duration" : 1954
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.輸入错误賬號09210000001；2.輸入错误密碼1111111；3.點擊【登錄】按鈕。",
+      "time" : {
+        "start" : 1648628492641,
+        "stop" : 1648628496012,
+        "duration" : 3371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e5e1fde0262a825c",
+      "name" : "log",
+      "source" : "e5e1fde0262a825c.txt",
+      "type" : "text/plain",
+      "size" : 895
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1648628518705,
+      "stop" : 1648628520961,
+      "duration" : 2256
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登錄模塊"
+  }, {
+    "name" : "story",
+    "value" : "輸入错误賬號错误密碼，登錄失敗，提示賬號錯誤。"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "D012016120180-2"
+  }, {
+    "name" : "thread",
+    "value" : "16160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8610f6c3df8c5770.json",
+  "parameterValues" : [ ]
+}

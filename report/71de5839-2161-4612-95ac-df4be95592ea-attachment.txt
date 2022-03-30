@@ -1,0 +1,10 @@
+INFO     poium:logging.py:23 [32m [INFO] ✅ Find element: name=user.username [0m
+INFO     poium:logging.py:23 [32m [INFO] clear element: 賬號輸入框[0m
+INFO     poium:logging.py:23 [32m [INFO] ✅ Find element: name=user.pwd [0m
+INFO     poium:logging.py:23 [32m [INFO] clear element: 密碼輸入框[0m
+INFO     poium:logging.py:23 [32m [INFO] ✅ Find element: name=user.username [0m
+INFO     poium:logging.py:23 [32m [INFO] 🖋 input element: 賬號輸入框[0m
+INFO     poium:logging.py:23 [32m [INFO] ✅ Find element: name=user.pwd [0m
+INFO     poium:logging.py:23 [32m [INFO] 🖋 input element: 密碼輸入框[0m
+INFO     poium:logging.py:23 [32m [INFO] ✅ Find element: id=login_sub [0m
+INFO     poium:logging.py:23 [32m [INFO] 🖱 click element: 登入按鈕[0m

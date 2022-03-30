@@ -1,0 +1,72 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "登錄模塊",
+    "children" : [ {
+      "name" : "輸入错误賬號错误密碼，登錄失敗，提示賬號錯誤。",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "8610f6c3df8c5770",
+        "parentUid" : "2388f5eeb5826f9c521eaf807406f2f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648628492640,
+          "stop" : 1648628496985,
+          "duration" : 4345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2388f5eeb5826f9c521eaf807406f2f3"
+    }, {
+      "name" : "輸入正確賬號错误密碼，登錄失敗，提示密碼錯誤。",
+      "children" : [ {
+        "name" : "test_02",
+        "uid" : "947f9e9cf745ae82",
+        "parentUid" : "78ddc16ed72822ea95dd4e1c5009520d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648628498935,
+          "stop" : 1648628503177,
+          "duration" : 4242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78ddc16ed72822ea95dd4e1c5009520d"
+    }, {
+      "name" : "輸入正確賬號正確密碼，登錄成功。",
+      "children" : [ {
+        "name" : "test_03",
+        "uid" : "6a901b994ad3d4ea",
+        "parentUid" : "a34c36e5ee160d41b76a879d00a3916c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648628505134,
+          "stop" : 1648628518704,
+          "duration" : 13570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a34c36e5ee160d41b76a879d00a3916c"
+    } ],
+    "uid" : "d66445f5f700db6fa829588e0857fbf4"
+  } ],
+  "name" : "behaviors"
+}
