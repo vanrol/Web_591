@@ -6,6 +6,7 @@ import pytest
 import config.cfg as cfg
 from common.page.login_page import LoginPage
 
+
 # 登錄測試類前後置：驅動開啟與關閉
 @pytest.fixture(scope='class', autouse=True)
 def browser():
@@ -27,4 +28,5 @@ def clear():
     lp = LoginPage(driver)
     lp.usr_input.clear()
     lp.pwd_input.clear()
+
 

@@ -9,9 +9,10 @@ logs_path = root_path + '//' + 'logs'
 page_path = root_path + '//' + 'common' + '//' + 'page'
 utils_path = root_path + '//' + 'common' + '//' + 'utils'
 report_path = root_path + '//' + 'report'
+html_path = report_path + '//'+'html'
 driver_path = root_path + '//' + 'driver'
 data_path = root_path + '//' + 'data'
 testcase_path = root_path + '//' + 'testcase'
 
 # 浏览器设置
-driver_tool = webdriver.Firefox()
+driver_tool = webdriver.Chrome()
