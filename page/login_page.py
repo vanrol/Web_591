@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import time
 from poium import Page, Element
-from config.cfg import *
+import allure
 
 class LoginPage(Page):
     # 頁面基本按鈕控件
@@ -22,20 +22,22 @@ class LoginPage(Page):
     pwd_warning = '您輸入的密碼有誤，請重新輸入。忘記密碼？'
     success_tip = '歡迎您的到來， 正在登入中。。。'
 
-
-
-def login(driver, usr, pwd, keep_cookie=False):
-    '''
-    :param usr:用戶名
-    :param pwd:密碼
-    :param keep_cookie:是否保持免登錄，默認不用
-    :return:無返回
-     '''
-    lp = LoginPage(driver)
-    lp.usr_input.send_keys(usr)
-    lp.pwd_input.send_keys(pwd)
-    if keep_cookie:
-        lp.cookie_btn.click()
-        lp.login_btn.click()
-    else:
-        lp.login_btn.click()
+    def login(self, usr, pwd, keep_cookie=False):
+        '''
+        :param usr:用戶名
+        :param pwd:密碼
+        :param keep_cookie:是否保持免登錄，默認不用
+        :return:無返回
+         '''
+        with allure.step("輸入賬號：{}".format(usr)):
+            self.usr_input.send_keys(usr)
+        with allure.step("輸入密碼：{}".format(pwd)):
+            self.pwd_input.send_keys(pwd)
+        if keep_cookie:
+            with allure.step("勾選保存登錄"):
+                self.cookie_btn.click()
+            with allure.step("點擊登錄按鈕"):
+                self.login_btn.click()
+        else:
+            with allure.step("點擊登錄按鈕"):
+                self.login_btn.click()

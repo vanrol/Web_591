@@ -4,12 +4,12 @@
     "uid" : "d66445f5f700db6fa829588e0857fbf4",
     "name" : "登錄模塊",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
+      "failed" : 2,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 3
+      "total" : 10
     }
   } ]
 }

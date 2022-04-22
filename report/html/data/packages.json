@@ -1,60 +1,246 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
-    "name" : "testcase.login_test",
+    "name" : "testcase",
     "children" : [ {
-      "name" : "test_01",
-      "uid" : "8610f6c3df8c5770",
-      "parentUid" : "5890e46ad8476fea276544a069a541fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1648628492640,
-        "stop" : 1648628496985,
-        "duration" : 4345
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "login_test",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "c040ace60fce5714",
+        "parentUid" : "5890e46ad8476fea276544a069a541fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648890772032,
+          "stop" : 1648890776226,
+          "duration" : 4194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02",
+        "uid" : "12807ba2c8ce46e4",
+        "parentUid" : "5890e46ad8476fea276544a069a541fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648890778174,
+          "stop" : 1648890782442,
+          "duration" : 4268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03",
+        "uid" : "8bcee0e45f9bb67",
+        "parentUid" : "5890e46ad8476fea276544a069a541fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648890784383,
+          "stop" : 1648890798216,
+          "duration" : 13833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5890e46ad8476fea276544a069a541fa"
     }, {
-      "name" : "test_02",
-      "uid" : "947f9e9cf745ae82",
-      "parentUid" : "5890e46ad8476fea276544a069a541fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1648628498935,
-        "stop" : 1648628503177,
-        "duration" : 4242
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_03",
-      "uid" : "6a901b994ad3d4ea",
-      "parentUid" : "5890e46ad8476fea276544a069a541fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1648628505134,
-        "stop" : 1648628518704,
-        "duration" : 13570
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "login",
+      "children" : [ {
+        "name" : "login_test",
+        "children" : [ {
+          "name" : "test_01",
+          "uid" : "c2dd0d5784da92d2",
+          "parentUid" : "23076854f35c471adc16b670ca36a575",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650607901358,
+            "stop" : 1650607905839,
+            "duration" : 4481
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_02",
+          "uid" : "14747ce618b8bae3",
+          "parentUid" : "23076854f35c471adc16b670ca36a575",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650607907783,
+            "stop" : 1650607912283,
+            "duration" : 4500
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_03",
+          "uid" : "4d2dcd9102521d0a",
+          "parentUid" : "23076854f35c471adc16b670ca36a575",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650607914238,
+            "stop" : 1650607927804,
+            "duration" : 13566
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "23076854f35c471adc16b670ca36a575"
+      }, {
+        "name" : "login_test_02",
+        "children" : [ {
+          "name" : "test_01[login_data6]",
+          "uid" : "a52e97fc3fc439a3",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "broken",
+          "time" : {
+            "start" : 1650611857653,
+            "stop" : 1650611868636,
+            "duration" : 10983
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;'}" ]
+        }, {
+          "name" : "輸入错误賬號，错误密碼，登錄失敗",
+          "uid" : "f1e8091f388b25d6",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650615542498,
+            "stop" : 1650615546413,
+            "duration" : 3915
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '輸入错误賬號，错误密碼，登錄失敗', 'name': 0, 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
+        }, {
+          "name" : "輸入正常賬號，错误密碼，登錄失敗",
+          "uid" : "b2c5dea2597b0fff",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650615548421,
+            "stop" : 1650615552441,
+            "duration" : 4020
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ "{'title': '輸入正常賬號，错误密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
+        }, {
+          "name" : "test_01[login_data2]",
+          "uid" : "93c7bd739fe30940",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "failed",
+          "time" : {
+            "start" : 1650615554445,
+            "stop" : 1650615558472,
+            "duration" : 4027
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
+        }, {
+          "name" : "test_01[login_data3]",
+          "uid" : "b2ebe0f79ff09207",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "failed",
+          "time" : {
+            "start" : 1650615560580,
+            "stop" : 1650615565332,
+            "duration" : 4752
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '請正確輸入您的密碼'}" ]
+        }, {
+          "name" : "test_01[login_data4]",
+          "uid" : "9f08019d68888c44",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "broken",
+          "time" : {
+            "start" : 1650615567343,
+            "stop" : 1650615568323,
+            "duration" : 980
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ "{'title': '輸入空格賬號，密碼空格，登錄失敗', 'name': None, 'psw': None, 'expect': '您輸入的帳號不存在'}" ]
+        }, {
+          "name" : "test_01[login_data5]",
+          "uid" : "2b92dac37b37d07a",
+          "parentUid" : "96bd31651d9d135e3948c88f6f09a899",
+          "status" : "broken",
+          "time" : {
+            "start" : 1650615570358,
+            "stop" : 1650615581580,
+            "duration" : 11222
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;', 'expect': 1}" ]
+        } ],
+        "uid" : "96bd31651d9d135e3948c88f6f09a899"
+      } ],
+      "uid" : "0fe8c6139a768a7ae97ceab988790dfb"
     } ],
-    "uid" : "testcase.login_test"
-  } ],
-  "name" : "packages"
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
 }

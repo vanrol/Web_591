@@ -4,14 +4,15 @@
 
 import pytest
 import config.cfg as cfg
-from common.page.login_page import LoginPage
+from page.login_page import LoginPage
 
 
 # 登錄測試類前後置：驅動開啟與關閉
 @pytest.fixture(scope='class', autouse=True)
 def browser():
     # 前置：打開登錄頁並進行頁面大小調整
-    driver = cfg.driver_tool
+    global driver
+    driver = cfg.Driver
     driver.maximize_window()
     driver.implicitly_wait(20)
     lp = LoginPage(driver)
@@ -24,7 +25,6 @@ def browser():
 # 登錄測試用例前後置工作：清除輸入框
 @pytest.fixture(scope='function', autouse=True)
 def clear():
-    driver = cfg.driver_tool
     lp = LoginPage(driver)
     lp.usr_input.clear()
     lp.pwd_input.clear()

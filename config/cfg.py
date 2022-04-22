@@ -3,16 +3,14 @@ import os
 from selenium import webdriver
 
 # 获取项目根目录
-root_path = os.path.dirname(os.path.dirname(__file__))
+BASE_PATH = os.path.dirname(os.path.dirname(__file__))
 # 获取各个包的绝对路径
-logs_path = root_path + '//' + 'logs'
-page_path = root_path + '//' + 'common' + '//' + 'page'
-utils_path = root_path + '//' + 'common' + '//' + 'utils'
-report_path = root_path + '//' + 'report'
-html_path = report_path + '//'+'html'
-driver_path = root_path + '//' + 'driver'
-data_path = root_path + '//' + 'data'
-testcase_path = root_path + '//' + 'testcase'
+LOGS_PATH = os.path.join(BASE_PATH, 'logs')
+REPORT_PATH = os.path.join(BASE_PATH, 'report')
+HTML_PATH = os.path.join(REPORT_PATH, 'html')
+DATA_PATH = os.path.join(BASE_PATH, 'data')
+TESTCASE_PATH = os.path.join(BASE_PATH, 'testcase')
+
 
 # 浏览器设置
-driver_tool = webdriver.Chrome()
+Driver = webdriver.Chrome()

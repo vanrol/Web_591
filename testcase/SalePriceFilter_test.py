@@ -5,7 +5,7 @@ import pytest
 import allure
 from selenium.common.exceptions import NoSuchElementException
 from common.utils.driver import RunDriver
-from common.page.sale_list_page import SaleFilterScreen
+from page.sale_list_page import SaleFilterScreen
 
 # 配置驅動
 driver = RunDriver().open_page('https://sale.debug.591.com.tw/')
