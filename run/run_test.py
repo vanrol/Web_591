@@ -6,7 +6,7 @@
 # -*- coding: utf-8 -*-
 # Author:T5-10858 , Address:xuwanle@addcn.com
 
-import config.cfg as cfg
+import config.config as cfg
 import os
 
 
@@ -23,7 +23,6 @@ def run_main(moudle_name, file_name):
     # 保存測試報告，打開測試報告
     os.system("allure generate {} -c -o {}".format(cfg.REPORT_PATH, cfg.HTML_PATH))
     os.system("allure open {}".format(cfg.HTML_PATH))
-
 
 
 if __name__ == '__main__':

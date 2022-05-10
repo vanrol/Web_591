@@ -3,7 +3,7 @@
 # Author:T5-10858 , Address:xuwanle@addcn.com
 
 from selenium import webdriver
-import config.cfg as conf
+import config.config as conf
 
 class RunDriver(object):
     def __init__(self):

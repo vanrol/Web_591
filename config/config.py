@@ -1,6 +1,6 @@
 # 此模块主要存放框架中所有目录的绝对路径
 import os
-from selenium import webdriver
+
 
 # 获取项目根目录
 BASE_PATH = os.path.dirname(os.path.dirname(__file__))
@@ -12,5 +12,4 @@ DATA_PATH = os.path.join(BASE_PATH, 'data')
 TESTCASE_PATH = os.path.join(BASE_PATH, 'testcase')
 
 
-# # 浏览器设置
-# Driver = webdriver.Chrome()
+
