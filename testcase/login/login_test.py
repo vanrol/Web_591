@@ -2,41 +2,38 @@
 # -*- coding: utf-8 -*-
 # Author:T5-10858 , Address:xuwanle@addcn.com
 
-from page.mine_page import MinePage
-from page.login_page import LoginPage
-from data.login_data import *
-from config.cfg import *
-import allure
 import time
+from page.login_page import LoginPage
+import allure
+import pytest
+from common.utils.read_yaml import read_yaml
 
 # 登錄模塊測試用例
 @allure.feature('登錄模塊')
 class TestLogin(object):
-    @allure.story("輸入错误賬號，错误密碼，登錄失敗，提示賬號錯誤。")
-    @allure.severity(allure.severity_level.MINOR)
-    def test_01(self, browser):
-        global lg
-        lg = LoginPage(browser)
-        lg.login(usr_info['錯誤賬號'], pwd_info['錯誤密碼'])
-        assert lg.warning_tip.text == lg.usr_warning
-
-    @allure.story("輸入正確賬號，错误密碼，登錄失敗，提示密碼錯誤。")
+    # 标记用例等级为normal
     @allure.severity(allure.severity_level.NORMAL)
-    def test_02(self):
-        lg.login(usr_info['正確賬號'], pwd_info['錯誤密碼'])
-        assert lg.warning_tip.text == lg.pwd_warning
+    # 读取key为normal的测试用例数据
+    @pytest.mark.parametrize('login_data', read_yaml('login.yml', 'normal'))
+    def test_normal(self, browser, login_data):
+        # 实例化登录页面
+        lg = LoginPage(browser)
+        # 执行登录页面的登录功能
+        lg.login(login_data['name'], login_data['psw'])
+        # 获取执行登录操作后的页面元素，并与用例数据给出的期望结果进行断言
+        assert lg.warning_tip.text == login_data['expect']
+        # 将生成的报告标题改为用例标题
+        allure.dynamic.title(login_data['title'])
 
-    @allure.story("輸入正確賬號，正確密碼，登錄成功。")
+
     @allure.severity(allure.severity_level.CRITICAL)
-    def test_03(self):
-        lg.login(usr_info['正確賬號'], pwd_info['正確密碼'])
-        time.sleep(10)
-        assert lg.get_url == MinePage.page_url
-
-        # 對登錄成功跳轉頁面進行截圖
-        pic_name = 'login_success' + time.strftime("%Y-%m-%d %H_%M_%S") + '.PNG'
-        lg.screenshots(LOGS_PATH, pic_name)
-        allure.attach.file(LOGS_PATH + '//' + pic_name, attachment_type=allure.attachment_type.PNG)
+    @pytest.mark.parametrize('login_data', read_yaml('login.yml', 'critical'))
+    def test_critical(self, browser, login_data):
+        lg = LoginPage(browser)
+        lg.login(login_data['name'], login_data['psw'])
+        time.sleep(8)
+        assert lg.get_url == login_data['expect']
+        allure.dynamic.title(login_data['title'])
 
 # if __name__ == '__main__':
 #     pytest.main(["-v", "-s", "login_test.py", "--alluredir", report_path])

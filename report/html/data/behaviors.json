@@ -4,145 +4,14 @@
   "children" : [ {
     "name" : "登錄模塊",
     "children" : [ {
-      "name" : "輸入错误賬號，错误密碼，登錄失敗，提示賬號錯誤。",
-      "children" : [ {
-        "name" : "test_01",
-        "uid" : "c040ace60fce5714",
-        "parentUid" : "42e7415575d160efce35c1c40bbf1893",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648890772032,
-          "stop" : 1648890776226,
-          "duration" : 4194
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 10,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "c2dd0d5784da92d2",
-        "parentUid" : "42e7415575d160efce35c1c40bbf1893",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650607901358,
-          "stop" : 1650607905839,
-          "duration" : 4481
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "42e7415575d160efce35c1c40bbf1893"
-    }, {
-      "name" : "輸入正確賬號，错误密碼，登錄失敗，提示密碼錯誤。",
-      "children" : [ {
-        "name" : "test_02",
-        "uid" : "12807ba2c8ce46e4",
-        "parentUid" : "6385ef504a49ba36bd173cedecbe3f3a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648890778174,
-          "stop" : 1648890782442,
-          "duration" : 4268
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 10,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "14747ce618b8bae3",
-        "parentUid" : "6385ef504a49ba36bd173cedecbe3f3a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650607907783,
-          "stop" : 1650607912283,
-          "duration" : 4500
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6385ef504a49ba36bd173cedecbe3f3a"
-    }, {
-      "name" : "輸入正確賬號，正確密碼，登錄成功。",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "8bcee0e45f9bb67",
-        "parentUid" : "0415b6c70ca497bf0fe5cbcce7dd787f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648890784383,
-          "stop" : 1648890798216,
-          "duration" : 13833
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 9,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "4d2dcd9102521d0a",
-        "parentUid" : "0415b6c70ca497bf0fe5cbcce7dd787f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650607914238,
-          "stop" : 1650607927804,
-          "duration" : 13566
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0415b6c70ca497bf0fe5cbcce7dd787f"
-    }, {
-      "name" : "test_01[login_data6]",
-      "uid" : "a52e97fc3fc439a3",
-      "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1650611857653,
-        "stop" : 1650611868636,
-        "duration" : 10983
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;'}" ]
-    }, {
       "name" : "輸入错误賬號，错误密碼，登錄失敗",
-      "uid" : "f1e8091f388b25d6",
+      "uid" : "48d327da6109e5c6",
       "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
       "status" : "passed",
       "time" : {
-        "start" : 1650615542498,
-        "stop" : 1650615546413,
-        "duration" : 3915
+        "start" : 1652172023806,
+        "stop" : 1652172027725,
+        "duration" : 3919
       },
       "flaky" : false,
       "newFailed" : false,
@@ -152,14 +21,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "{'title': '輸入错误賬號，错误密碼，登錄失敗', 'name': 0, 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
     }, {
-      "name" : "輸入正常賬號，错误密碼，登錄失敗",
-      "uid" : "b2c5dea2597b0fff",
+      "name" : "輸入正常賬號，密碼不符合规格，登錄失敗",
+      "uid" : "b1c7007ad10f3a01",
       "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
       "status" : "passed",
       "time" : {
-        "start" : 1650615548421,
-        "stop" : 1650615552441,
-        "duration" : 4020
+        "start" : 1652172029668,
+        "stop" : 1652172033634,
+        "duration" : 3966
       },
       "flaky" : false,
       "newFailed" : false,
@@ -167,50 +36,16 @@
       "newBroken" : false,
       "retriesCount" : 2,
       "retriesStatusChange" : true,
-      "parameters" : [ "{'title': '輸入正常賬號，错误密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
+      "parameters" : [ "{'title': '輸入正常賬號，密碼不符合规格，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
     }, {
-      "name" : "test_01[login_data2]",
-      "uid" : "93c7bd739fe30940",
+      "name" : "輸入错误賬號，正确密碼，登錄失敗",
+      "uid" : "bacb87c9fa1bce1a",
       "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1650615554445,
-        "stop" : 1650615558472,
-        "duration" : 4027
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : false,
-      "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
-    }, {
-      "name" : "test_01[login_data3]",
-      "uid" : "b2ebe0f79ff09207",
-      "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1650615560580,
-        "stop" : 1650615565332,
-        "duration" : 4752
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : false,
-      "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '請正確輸入您的密碼'}" ]
-    }, {
-      "name" : "test_01[login_data4]",
-      "uid" : "9f08019d68888c44",
-      "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1650615567343,
-        "stop" : 1650615568323,
-        "duration" : 980
+        "start" : 1652172035574,
+        "stop" : 1652172039455,
+        "duration" : 3881
       },
       "flaky" : false,
       "newFailed" : false,
@@ -218,16 +53,16 @@
       "newBroken" : false,
       "retriesCount" : 2,
       "retriesStatusChange" : true,
-      "parameters" : [ "{'title': '輸入空格賬號，密碼空格，登錄失敗', 'name': None, 'psw': None, 'expect': '您輸入的帳號不存在'}" ]
+      "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': 0, 'psw': 111111, 'expect': '您輸入的帳號不存在'}" ]
     }, {
-      "name" : "test_01[login_data5]",
-      "uid" : "2b92dac37b37d07a",
+      "name" : "輸入正常賬號，密碼不分大小写，登錄失敗",
+      "uid" : "85808d104c8390e0",
       "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1650615570358,
-        "stop" : 1650615581580,
-        "duration" : 11222
+        "start" : 1652172041391,
+        "stop" : 1652172045797,
+        "duration" : 4406
       },
       "flaky" : false,
       "newFailed" : false,
@@ -235,7 +70,24 @@
       "newBroken" : false,
       "retriesCount" : 2,
       "retriesStatusChange" : false,
-      "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;', 'expect': 1}" ]
+      "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '您輸入的密碼有誤，請重新輸入。忘記密碼？'}" ]
+    }, {
+      "name" : "輸入正确賬號，正确密碼且带有特殊字符，登錄成功",
+      "uid" : "104980d3d516c49e",
+      "parentUid" : "d66445f5f700db6fa829588e0857fbf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652172047755,
+        "stop" : 1652172059499,
+        "duration" : 11744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0988886666', 'psw': 111111, 'expect': 'https://www.debug.591.com.tw/index.php?module=userCenter&action=newMedium'}" ]
     } ],
     "uid" : "d66445f5f700db6fa829588e0857fbf4"
   } ]

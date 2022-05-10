@@ -21,10 +21,10 @@ def run_main(moudle_name, file_name):
     f = os.path.join(MOUDLE_PATH, file_name)
     os.system("pytest {} -s -q --alluredir {}".format(f, cfg.REPORT_PATH))
     # 保存測試報告，打開測試報告
-    os.system("allure generate {} -o {} --clean".format(cfg.REPORT_PATH, cfg.HTML_PATH))
+    os.system("allure generate {} -c -o {}".format(cfg.REPORT_PATH, cfg.HTML_PATH))
     os.system("allure open {}".format(cfg.HTML_PATH))
 
 
 
 if __name__ == '__main__':
-    run_main('login', 'login_test_02.py')
+    run_main('login', 'login_test.py')

@@ -28,7 +28,7 @@ class LoginPage(Page):
         :param pwd:密碼
         :param keep_cookie:是否保持免登錄，默認不用
         :return:無返回
-         '''
+        '''
         with allure.step("輸入賬號：{}".format(usr)):
             self.usr_input.send_keys(usr)
         with allure.step("輸入密碼：{}".format(pwd)):

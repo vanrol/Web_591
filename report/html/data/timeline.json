@@ -4,156 +4,16 @@
   "children" : [ {
     "name" : "D012016120180-2",
     "children" : [ {
-      "name" : "10668-MainThread",
+      "name" : "9052-MainThread",
       "children" : [ {
-        "name" : "test_01",
-        "uid" : "2a63c2f3b4520845",
-        "parentUid" : "c32841cf61e27cd2dcbcaf07f498a314",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648899482968,
-          "stop" : 1648899487132,
-          "duration" : 4164
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "d44d1424480c94f8",
-        "parentUid" : "c32841cf61e27cd2dcbcaf07f498a314",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648899489071,
-          "stop" : 1648899493325,
-          "duration" : 4254
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "c7b4fb04133d39e0",
-        "parentUid" : "c32841cf61e27cd2dcbcaf07f498a314",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648899495285,
-          "stop" : 1648899508822,
-          "duration" : 13537
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c32841cf61e27cd2dcbcaf07f498a314"
-    }, {
-      "name" : "19776-MainThread",
-      "children" : [ {
-        "name" : "test_01[login_data2]",
-        "uid" : "8733f542546ffd6",
-        "parentUid" : "f52992df2644ade1bd6b05f31dc5c6f9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650612404370,
-          "stop" : 1650612408290,
-          "duration" : 3920
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
-      }, {
-        "name" : "test_01[login_data4]",
-        "uid" : "9ae7b4bceb7abc84",
-        "parentUid" : "f52992df2644ade1bd6b05f31dc5c6f9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1650612416725,
-          "stop" : 1650612417675,
-          "duration" : 950
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入空格賬號，密碼空格，登錄失敗', 'name': None, 'psw': None, 'expect': '您輸入的帳號不存在'}" ]
-      }, {
-        "name" : "test_01[login_data5]",
-        "uid" : "a7320836057d475d",
-        "parentUid" : "f52992df2644ade1bd6b05f31dc5c6f9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1650612419685,
-          "stop" : 1650612430656,
-          "duration" : 10971
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;', 'expect': 1}" ]
-      }, {
-        "name" : "輸入正常賬號，错误密碼，登錄失敗",
-        "uid" : "4246e963bf2845cf",
-        "parentUid" : "f52992df2644ade1bd6b05f31dc5c6f9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650612398445,
-          "stop" : 1650612402421,
-          "duration" : 3976
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正常賬號，错误密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
-      }, {
-        "name" : "test_01[login_data3]",
-        "uid" : "16f15c0ee441d49a",
-        "parentUid" : "f52992df2644ade1bd6b05f31dc5c6f9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650612410372,
-          "stop" : 1650612414763,
-          "duration" : 4391
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '請正確輸入您的密碼'}" ]
-      }, {
         "name" : "輸入错误賬號，错误密碼，登錄失敗",
-        "uid" : "32de0bc289a13fb6",
-        "parentUid" : "f52992df2644ade1bd6b05f31dc5c6f9",
+        "uid" : "f7f2a72c94065167",
+        "parentUid" : "4af2028852171b33f0f501ab3bf17d71",
         "status" : "passed",
         "time" : {
-          "start" : 1650612392560,
-          "stop" : 1650612396512,
-          "duration" : 3952
+          "start" : 1652171106796,
+          "stop" : 1652171110749,
+          "duration" : 3953
         },
         "flaky" : false,
         "newFailed" : false,
@@ -162,91 +22,104 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'title': '輸入错误賬號，错误密碼，登錄失敗', 'name': 0, 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
-      } ],
-      "uid" : "f52992df2644ade1bd6b05f31dc5c6f9"
-    }, {
-      "name" : "20564-MainThread",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "d074e919f8e2657",
-        "parentUid" : "170e99353bbf259149a98af4efbea4d3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648887941751,
-          "stop" : 1648887941752,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
       }, {
-        "name" : "test_02",
-        "uid" : "be740e8b360bbfe3",
-        "parentUid" : "170e99353bbf259149a98af4efbea4d3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648887939704,
-          "stop" : 1648887939705,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "44db7170a714fe63",
-        "parentUid" : "170e99353bbf259149a98af4efbea4d3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648887937579,
-          "stop" : 1648887937581,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "170e99353bbf259149a98af4efbea4d3"
-    }, {
-      "name" : "21088-MainThread",
-      "children" : [ {
-        "name" : "test_01[login_data4]",
-        "uid" : "9f08019d68888c44",
-        "parentUid" : "70c3bac24ba3d13bb470443a54d85273",
-        "status" : "broken",
-        "time" : {
-          "start" : 1650615567343,
-          "stop" : 1650615568323,
-          "duration" : 980
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 2,
-        "retriesStatusChange" : true,
-        "parameters" : [ "{'title': '輸入空格賬號，密碼空格，登錄失敗', 'name': None, 'psw': None, 'expect': '您輸入的帳號不存在'}" ]
-      }, {
-        "name" : "輸入正常賬號，错误密碼，登錄失敗",
-        "uid" : "b2c5dea2597b0fff",
-        "parentUid" : "70c3bac24ba3d13bb470443a54d85273",
+        "name" : "輸入错误賬號，正确密碼，登錄失敗",
+        "uid" : "87d878260afd01bf",
+        "parentUid" : "4af2028852171b33f0f501ab3bf17d71",
         "status" : "passed",
         "time" : {
-          "start" : 1650615548421,
-          "stop" : 1650615552441,
-          "duration" : 4020
+          "start" : 1652171118593,
+          "stop" : 1652171122479,
+          "duration" : 3886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': 0, 'psw': 111111, 'expect': '您輸入的帳號不存在'}" ]
+      }, {
+        "name" : "輸入正常賬號，密碼不分大小写，登錄失敗",
+        "uid" : "27edb9432842b9de",
+        "parentUid" : "4af2028852171b33f0f501ab3bf17d71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652171124410,
+          "stop" : 1652171128698,
+          "duration" : 4288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '您輸入的密碼有誤，請重新輸入。忘記密碼？'}" ]
+      }, {
+        "name" : "輸入正确賬號，正确密碼且带有特殊字符，登錄成功",
+        "uid" : "f66f824b06d644f4",
+        "parentUid" : "4af2028852171b33f0f501ab3bf17d71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652171130654,
+          "stop" : 1652171142199,
+          "duration" : 11545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0988886666', 'psw': 111111, 'expect': 'https://www.debug.591.com.tw/index.php?module=userCenter&action=newMedium'}" ]
+      }, {
+        "name" : "輸入正常賬號，密碼不符合规格，登錄失敗",
+        "uid" : "1f5e3a27e1e58d7f",
+        "parentUid" : "4af2028852171b33f0f501ab3bf17d71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652171112692,
+          "stop" : 1652171116661,
+          "duration" : 3969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '輸入正常賬號，密碼不符合规格，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
+      } ],
+      "uid" : "4af2028852171b33f0f501ab3bf17d71"
+    }, {
+      "name" : "19164-MainThread",
+      "children" : [ {
+        "name" : "輸入正常賬號，密碼不分大小写，登錄失敗",
+        "uid" : "85808d104c8390e0",
+        "parentUid" : "d40e6e9c3db6bd811f294be58e975009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652172041391,
+          "stop" : 1652172045797,
+          "duration" : 4406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '您輸入的密碼有誤，請重新輸入。忘記密碼？'}" ]
+      }, {
+        "name" : "輸入错误賬號，正确密碼，登錄失敗",
+        "uid" : "bacb87c9fa1bce1a",
+        "parentUid" : "d40e6e9c3db6bd811f294be58e975009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652172035574,
+          "stop" : 1652172039455,
+          "duration" : 3881
         },
         "flaky" : false,
         "newFailed" : false,
@@ -254,67 +127,50 @@
         "newBroken" : false,
         "retriesCount" : 2,
         "retriesStatusChange" : true,
-        "parameters" : [ "{'title': '輸入正常賬號，错误密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
+        "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': 0, 'psw': 111111, 'expect': '您輸入的帳號不存在'}" ]
       }, {
-        "name" : "test_01[login_data5]",
-        "uid" : "2b92dac37b37d07a",
-        "parentUid" : "70c3bac24ba3d13bb470443a54d85273",
-        "status" : "broken",
+        "name" : "輸入正常賬號，密碼不符合规格，登錄失敗",
+        "uid" : "b1c7007ad10f3a01",
+        "parentUid" : "d40e6e9c3db6bd811f294be58e975009",
+        "status" : "passed",
         "time" : {
-          "start" : 1650615570358,
-          "stop" : 1650615581580,
-          "duration" : 11222
+          "start" : 1652172029668,
+          "stop" : 1652172033634,
+          "duration" : 3966
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
         "retriesCount" : 2,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;', 'expect': 1}" ]
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'title': '輸入正常賬號，密碼不符合规格，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '請正確輸入您的密碼'}" ]
       }, {
-        "name" : "test_01[login_data3]",
-        "uid" : "b2ebe0f79ff09207",
-        "parentUid" : "70c3bac24ba3d13bb470443a54d85273",
-        "status" : "failed",
+        "name" : "輸入正确賬號，正确密碼且带有特殊字符，登錄成功",
+        "uid" : "104980d3d516c49e",
+        "parentUid" : "d40e6e9c3db6bd811f294be58e975009",
+        "status" : "passed",
         "time" : {
-          "start" : 1650615560580,
-          "stop" : 1650615565332,
-          "duration" : 4752
+          "start" : 1652172047755,
+          "stop" : 1652172059499,
+          "duration" : 11744
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
         "retriesCount" : 2,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '請正確輸入您的密碼'}" ]
-      }, {
-        "name" : "test_01[login_data2]",
-        "uid" : "93c7bd739fe30940",
-        "parentUid" : "70c3bac24ba3d13bb470443a54d85273",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650615554445,
-          "stop" : 1650615558472,
-          "duration" : 4027
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 2,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0988886666', 'psw': 111111, 'expect': 'https://www.debug.591.com.tw/index.php?module=userCenter&action=newMedium'}" ]
       }, {
         "name" : "輸入错误賬號，错误密碼，登錄失敗",
-        "uid" : "f1e8091f388b25d6",
-        "parentUid" : "70c3bac24ba3d13bb470443a54d85273",
+        "uid" : "48d327da6109e5c6",
+        "parentUid" : "d40e6e9c3db6bd811f294be58e975009",
         "status" : "passed",
         "time" : {
-          "start" : 1650615542498,
-          "stop" : 1650615546413,
-          "duration" : 3915
+          "start" : 1652172023806,
+          "stop" : 1652172027725,
+          "duration" : 3919
         },
         "flaky" : false,
         "newFailed" : false,
@@ -324,18 +180,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "{'title': '輸入错误賬號，错误密碼，登錄失敗', 'name': 0, 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
       } ],
-      "uid" : "70c3bac24ba3d13bb470443a54d85273"
+      "uid" : "d40e6e9c3db6bd811f294be58e975009"
     }, {
-      "name" : "15492-MainThread",
+      "name" : "1756-MainThread",
       "children" : [ {
-        "name" : "test_02",
-        "uid" : "c643a95e0972e92c",
-        "parentUid" : "f6727bd16bb75a18e5144c754ac60ecb",
-        "status" : "broken",
+        "name" : "test_normal[login_data1]",
+        "uid" : "a9158fa0acf4d66a",
+        "parentUid" : "6daf7aa7bb54a526cb557adf8b0772ad",
+        "status" : "failed",
         "time" : {
-          "start" : 1648886832811,
-          "stop" : 1648886832811,
-          "duration" : 0
+          "start" : 1652170251183,
+          "stop" : 1652170255178,
+          "duration" : 3995
         },
         "flaky" : false,
         "newFailed" : false,
@@ -343,583 +199,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "{'title': '輸入正常賬號，错误密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '您輸入的密碼有誤，請重新輸入。忘記密碼？'}" ]
       }, {
-        "name" : "test_01",
-        "uid" : "2547345f614433ff",
-        "parentUid" : "f6727bd16bb75a18e5144c754ac60ecb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648886832606,
-          "stop" : 1648886832606,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "834e2726f6b428fd",
-        "parentUid" : "f6727bd16bb75a18e5144c754ac60ecb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890695675,
-          "stop" : 1648890695675,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "f3596d9637bd7d35",
-        "parentUid" : "f6727bd16bb75a18e5144c754ac60ecb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890687127,
-          "stop" : 1648890687127,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "7b0a08b3b1336cb4",
-        "parentUid" : "f6727bd16bb75a18e5144c754ac60ecb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648886832823,
-          "stop" : 1648886832823,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f6727bd16bb75a18e5144c754ac60ecb"
-    }, {
-      "name" : "14760-MainThread",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "4d2dcd9102521d0a",
-        "parentUid" : "240e4bfa452cf313afc365ca8d8d8da2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650607914238,
-          "stop" : 1650607927804,
-          "duration" : 13566
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "c2dd0d5784da92d2",
-        "parentUid" : "240e4bfa452cf313afc365ca8d8d8da2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650607901358,
-          "stop" : 1650607905839,
-          "duration" : 4481
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "14747ce618b8bae3",
-        "parentUid" : "240e4bfa452cf313afc365ca8d8d8da2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650607907783,
-          "stop" : 1650607912283,
-          "duration" : 4500
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "240e4bfa452cf313afc365ca8d8d8da2"
-    }, {
-      "name" : "10072-MainThread",
-      "children" : [ {
-        "name" : "test_02",
-        "uid" : "7bfa91b73d05a1ae",
-        "parentUid" : "96f12a23e25b16d68a96dbc49551c4d5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648886981827,
-          "stop" : 1648886986058,
-          "duration" : 4231
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "f849448628a4ecb5",
-        "parentUid" : "96f12a23e25b16d68a96dbc49551c4d5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648886975470,
-          "stop" : 1648886979841,
-          "duration" : 4371
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "9b88ac5a1c2b9011",
-        "parentUid" : "96f12a23e25b16d68a96dbc49551c4d5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648886988024,
-          "stop" : 1648887001511,
-          "duration" : 13487
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "96f12a23e25b16d68a96dbc49551c4d5"
-    }, {
-      "name" : "23104-MainThread",
-      "children" : [ {
-        "name" : "test_01",
-        "uid" : "ed8a672f23cf80f1",
-        "parentUid" : "4b9cc52bd2aa556dc3eecf298b7424da",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890472971,
-          "stop" : 1648890472971,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "68e9fa733ec7ddad",
-        "parentUid" : "4b9cc52bd2aa556dc3eecf298b7424da",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890472981,
-          "stop" : 1648890472981,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "7992ab30708041",
-        "parentUid" : "4b9cc52bd2aa556dc3eecf298b7424da",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890472978,
-          "stop" : 1648890472978,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4b9cc52bd2aa556dc3eecf298b7424da"
-    }, {
-      "name" : "18156-MainThread",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "f432b1f9cd6516ce",
-        "parentUid" : "d0c0acd2710654be4798bca0e96be117",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650597690823,
-          "stop" : 1650597704542,
-          "duration" : 13719
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "7a1df05d07c409bc",
-        "parentUid" : "d0c0acd2710654be4798bca0e96be117",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650597678338,
-          "stop" : 1650597682677,
-          "duration" : 4339
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "e8bf768dc7d660e1",
-        "parentUid" : "d0c0acd2710654be4798bca0e96be117",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650597684623,
-          "stop" : 1650597688867,
-          "duration" : 4244
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d0c0acd2710654be4798bca0e96be117"
-    }, {
-      "name" : "17080-MainThread",
-      "children" : [ {
-        "name" : "test_02",
-        "uid" : "f5e43b63fcd4ab2f",
-        "parentUid" : "32ac834a2ea8d5e90d1397b740a89a8e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648888453222,
-          "stop" : 1648888454170,
-          "duration" : 948
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "e644610e266c8a3f",
-        "parentUid" : "32ac834a2ea8d5e90d1397b740a89a8e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648888456118,
-          "stop" : 1648888457063,
-          "duration" : 945
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "ad07cfa170408e46",
-        "parentUid" : "32ac834a2ea8d5e90d1397b740a89a8e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648888450180,
-          "stop" : 1648888451134,
-          "duration" : 954
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "32ac834a2ea8d5e90d1397b740a89a8e"
-    }, {
-      "name" : "12616-MainThread",
-      "children" : [ {
-        "name" : "test_02",
-        "uid" : "69e54281ef4ec32e",
-        "parentUid" : "c0522ec6d9ae1c71818afee546f016ba",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890555695,
-          "stop" : 1648890555695,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "941e2e8bc08c36c7",
-        "parentUid" : "c0522ec6d9ae1c71818afee546f016ba",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890555687,
-          "stop" : 1648890555687,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "ac117bf9abd37eb2",
-        "parentUid" : "c0522ec6d9ae1c71818afee546f016ba",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648890555698,
-          "stop" : 1648890555698,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c0522ec6d9ae1c71818afee546f016ba"
-    }, {
-      "name" : "14436-MainThread",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "c86f1e3921943f44",
-        "parentUid" : "61e6a746abda386cdc066cf3c5c9f890",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648886899741,
-          "stop" : 1648886899741,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "e1d97acda44ae2f0",
-        "parentUid" : "61e6a746abda386cdc066cf3c5c9f890",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648886899731,
-          "stop" : 1648886899731,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "e6b60d40f3f32fd7",
-        "parentUid" : "61e6a746abda386cdc066cf3c5c9f890",
-        "status" : "broken",
-        "time" : {
-          "start" : 1648886898929,
-          "stop" : 1648886898929,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "61e6a746abda386cdc066cf3c5c9f890"
-    }, {
-      "name" : "15724-MainThread",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "aeb8ace7605b79e0",
-        "parentUid" : "2d18ebd7d7bae7746febb14b8dcebd95",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648888572612,
-          "stop" : 1648888586065,
-          "duration" : 13453
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "6257b5c27eb4829f",
-        "parentUid" : "2d18ebd7d7bae7746febb14b8dcebd95",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648888566448,
-          "stop" : 1648888570658,
-          "duration" : 4210
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "3dd2543bac158891",
-        "parentUid" : "2d18ebd7d7bae7746febb14b8dcebd95",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648888560284,
-          "stop" : 1648888564483,
-          "duration" : 4199
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2d18ebd7d7bae7746febb14b8dcebd95"
-    }, {
-      "name" : "16160-MainThread",
-      "children" : [ {
-        "name" : "test_03",
-        "uid" : "b97758d3d0b023df",
-        "parentUid" : "7269c3fd62792c68b2e93dd5dc0a5b23",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648628505134,
-          "stop" : 1648628518704,
-          "duration" : 13570
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "67e701fb31410905",
-        "parentUid" : "7269c3fd62792c68b2e93dd5dc0a5b23",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648628498935,
-          "stop" : 1648628503177,
-          "duration" : 4242
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_01",
-        "uid" : "e48b8ac8abe1552a",
-        "parentUid" : "7269c3fd62792c68b2e93dd5dc0a5b23",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648628492640,
-          "stop" : 1648628496985,
-          "duration" : 4345
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7269c3fd62792c68b2e93dd5dc0a5b23"
-    }, {
-      "name" : "16972-MainThread",
-      "children" : [ {
         "name" : "輸入错误賬號，错误密碼，登錄失敗",
-        "uid" : "bafd374caa60f73b",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
+        "uid" : "43990734bd381fcc",
+        "parentUid" : "6daf7aa7bb54a526cb557adf8b0772ad",
         "status" : "passed",
         "time" : {
-          "start" : 1650611824441,
-          "stop" : 1650611828402,
-          "duration" : 3961
+          "start" : 1652170245209,
+          "stop" : 1652170249230,
+          "duration" : 4021
         },
         "flaky" : false,
         "newFailed" : false,
@@ -927,33 +216,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入错误賬號，错误密碼，登錄失敗', 'name': 0, 'psw': 0}" ]
+        "parameters" : [ "{'title': '輸入错误賬號，错误密碼，登錄失敗', 'name': 0, 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
       }, {
-        "name" : "test_01[login_data6]",
-        "uid" : "a52e97fc3fc439a3",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1650611857653,
-          "stop" : 1650611868636,
-          "duration" : 10983
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;'}" ]
-      }, {
-        "name" : "test_01[login_data1]",
-        "uid" : "ac8368760739d401",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
+        "name" : "test_critical[login_data0]",
+        "uid" : "3078c9b22d823c37",
+        "parentUid" : "6daf7aa7bb54a526cb557adf8b0772ad",
         "status" : "failed",
         "time" : {
-          "start" : 1650611830332,
-          "stop" : 1650611834387,
-          "duration" : 4055
+          "start" : 1652170269429,
+          "stop" : 1652170280688,
+          "duration" : 11259
         },
         "flaky" : false,
         "newFailed" : false,
@@ -961,16 +233,33 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正常賬號，错误密碼，登錄失敗', 'name': '0921000001', 'psw': 0}" ]
+        "parameters" : [ "{'title': '輸入正确賬號，正确密碼且带有特殊字符，登錄成功', 'name': '0921223333', 'psw': 'tw591TW;', 'expect': 'https://www.debug.591.com.tw/index.php?module=userCenter&action=newMedium'}" ]
       }, {
-        "name" : "test_01[login_data2]",
-        "uid" : "6a36fc1f927835ee",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
+        "name" : "輸入正常賬號，密碼不分大小写，登錄失敗",
+        "uid" : "6d0a994d7363530d",
+        "parentUid" : "6daf7aa7bb54a526cb557adf8b0772ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652170263111,
+          "stop" : 1652170267472,
+          "duration" : 4361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;', 'expect': '您輸入的密碼有誤，請重新輸入。忘記密碼？'}" ]
+      }, {
+        "name" : "test_normal[login_data2]",
+        "uid" : "5ab8cf7585b14c07",
+        "parentUid" : "6daf7aa7bb54a526cb557adf8b0772ad",
         "status" : "failed",
         "time" : {
-          "start" : 1650611836470,
-          "stop" : 1650611840375,
-          "duration" : 3905
+          "start" : 1652170257262,
+          "stop" : 1652170261158,
+          "duration" : 3896
         },
         "flaky" : false,
         "newFailed" : false,
@@ -978,170 +267,9 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': '0921000001', 'psw': 0}" ]
-      }, {
-        "name" : "test_01[login_data5]",
-        "uid" : "c72eefeebd30004",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1650611854755,
-          "stop" : 1650611855698,
-          "duration" : 943
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入空格賬號，密碼空格，登錄失敗', 'name': None, 'psw': None}" ]
-      }, {
-        "name" : "test_01[login_data3]",
-        "uid" : "c3c6c844ae7096e1",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650611842313,
-          "stop" : 1650611846614,
-          "duration" : 4301
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;'}" ]
-      }, {
-        "name" : "test_01[login_data4]",
-        "uid" : "9ca264f77c1e5839",
-        "parentUid" : "11b2ccbb5410f47882b1989313905b6e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1650611848576,
-          "stop" : 1650611852791,
-          "duration" : 4215
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'title': '輸入正常賬號，密碼不分大小写，登錄失敗', 'name': '0921223333', 'psw': 'TW591tw;'}" ]
+        "parameters" : [ "{'title': '輸入错误賬號，正确密碼，登錄失敗', 'name': '0921000001', 'psw': 0, 'expect': '您輸入的帳號不存在'}" ]
       } ],
-      "uid" : "11b2ccbb5410f47882b1989313905b6e"
-    }, {
-      "name" : "12852-MainThread",
-      "children" : [ {
-        "name" : "test_01",
-        "uid" : "c040ace60fce5714",
-        "parentUid" : "7fe50197d5037faf1f58d59a1644074f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648890772032,
-          "stop" : 1648890776226,
-          "duration" : 4194
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 10,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "12807ba2c8ce46e4",
-        "parentUid" : "7fe50197d5037faf1f58d59a1644074f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648890778174,
-          "stop" : 1648890782442,
-          "duration" : 4268
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 10,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "8bcee0e45f9bb67",
-        "parentUid" : "7fe50197d5037faf1f58d59a1644074f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648890784383,
-          "stop" : 1648890798216,
-          "duration" : 13833
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 9,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7fe50197d5037faf1f58d59a1644074f"
-    }, {
-      "name" : "24064-MainThread",
-      "children" : [ {
-        "name" : "test_01",
-        "uid" : "836f4ba6d1670611",
-        "parentUid" : "7998e10c18720e2c8a756a0006c1cd10",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650606343100,
-          "stop" : 1650606347374,
-          "duration" : 4274
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_03",
-        "uid" : "c101e902d02faca1",
-        "parentUid" : "7998e10c18720e2c8a756a0006c1cd10",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650606355468,
-          "stop" : 1650606369023,
-          "duration" : 13555
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_02",
-        "uid" : "cf29d85e367f76c0",
-        "parentUid" : "7998e10c18720e2c8a756a0006c1cd10",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650606349313,
-          "stop" : 1650606353517,
-          "duration" : 4204
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7998e10c18720e2c8a756a0006c1cd10"
+      "uid" : "6daf7aa7bb54a526cb557adf8b0772ad"
     } ],
     "uid" : "fa56380075974c1d42fb9b0aba153026"
   } ]

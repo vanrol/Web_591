@@ -12,5 +12,5 @@ DATA_PATH = os.path.join(BASE_PATH, 'data')
 TESTCASE_PATH = os.path.join(BASE_PATH, 'testcase')
 
 
-# 浏览器设置
-Driver = webdriver.Chrome()
+# # 浏览器设置
+# Driver = webdriver.Chrome()
