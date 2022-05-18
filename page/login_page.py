@@ -1,6 +1,6 @@
 # !/usr/env python 3
 # -*- coding: utf-8 -*-
-import time
+
 from poium import Page, Element
 import allure
 
@@ -12,7 +12,7 @@ class LoginPage(Page):
     found_usr = Element(link_text='忘記帳號', describe='忘記賬號按鈕')
     found_pwd = Element(link_text='忘記密碼', describe='忘記密碼按鈕')
     cookie_btn = Element(class_name='j-cookie', describe='兩周內免登錄勾選按鈕')
-    cookie_tip_label = Element(css_selector = '.hint.j-hint', describe='勾選兩周免登錄後，出現的提示框')
+    cookie_tip_label = Element(css='.hint.j-hint', describe='勾選兩周免登錄後，出現的提示框')
     login_btn = Element(id_='login_sub', describe='登入按鈕')
     register_btn = Element(link_text='免費註冊', describe='免費註冊')
     warning_tip = Element(class_name='login-warning-info', describe='登录提示')

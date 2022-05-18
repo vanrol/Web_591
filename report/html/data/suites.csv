@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 10 16:40:35 CST 2022","Tue May 10 16:40:39 CST 2022","3881","testcase.login","login_test","TestLogin","","","輸入错误賬號，正确密碼，登錄失敗",""
-"passed","Tue May 10 16:40:29 CST 2022","Tue May 10 16:40:33 CST 2022","3966","testcase.login","login_test","TestLogin","","","輸入正常賬號，密碼不符合规格，登錄失敗",""
-"passed","Tue May 10 16:40:47 CST 2022","Tue May 10 16:40:59 CST 2022","11744","testcase.login","login_test","TestLogin","","","輸入正确賬號，正确密碼且带有特殊字符，登錄成功",""
-"passed","Tue May 10 16:40:23 CST 2022","Tue May 10 16:40:27 CST 2022","3919","testcase.login","login_test","TestLogin","","","輸入错误賬號，错误密碼，登錄失敗",""
-"passed","Tue May 10 16:40:41 CST 2022","Tue May 10 16:40:45 CST 2022","4406","testcase.login","login_test","TestLogin","","","輸入正常賬號，密碼不分大小写，登錄失敗",""
