@@ -1,10 +1,6 @@
 # !/usr/env python 3
 # -*- coding: utf-8 -*-
-# Author:T5-10858 , Address:xuwanle@addcn.com
 
-# !/usr/env python 3
-# -*- coding: utf-8 -*-
-# Author:T5-10858 , Address:xuwanle@addcn.com
 
 import config.config as cfg
 import os
